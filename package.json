@@ -1,0 +1,28 @@
+{
+  "name": "webpack5-module-sharing-microfrontends",
+  "version": "1.0.0",
+  "description": "Creating Micro Frontends solution with Webpack 5 Module Federation",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aroran1/webpack5-module-sharing-microfrontends.git"
+  },
+  "author": "Nidhi Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aroran1/webpack5-module-sharing-microfrontends/issues"
+  },
+  "homepage": "https://github.com/aroran1/webpack5-module-sharing-microfrontends#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
