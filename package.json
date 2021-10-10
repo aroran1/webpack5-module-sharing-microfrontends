@@ -10,7 +10,8 @@
     ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
   },
   "repository": {
     "type": "git",

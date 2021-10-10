@@ -1,7 +1,6 @@
 import React, {Suspense} from "react";
 const RemoteApp = React.lazy(() => import("app2/App"));
 
-
 const App = () => {
   return(
     <div>
